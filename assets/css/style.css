@@ -242,15 +242,61 @@ main .main-container .row .card-main .points ul li a {
 
 
 
-main .main-container .row-enter{
+
+
+main .main-container .row-enter {
+  position: relative;
   margin-top: 50px;
-  width: 1000px;
-  height: 300px;
+  height: 260px;
+  border: 1px solid rgba(0, 0, 0, .3);;
 }
 
+main .main-container .row-enter .card-main .team {
+  text-align: center;
+  padding: 10px;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
 
+main .main-container .row-enter .card-main .team i {
+  color: black;
+}
 
+main .main-container .row-enter .card-main .main-col-enter {
+  display: inline-block;
+  width: 690px;
+  height: 220px;
+  padding: 30px 30px;
+}
 
+main .main-container .row-enter .card-main .main-col-enter h3{
+  font-size: 2rem;
+  padding-bottom: 25px;
+}
+
+main .main-container .row-enter .card-main .main-col-enter .office{
+  font-weight: bold;
+  padding-bottom: 55px;
+}
+
+main .main-container .row-enter .card-main .main-col-enter .solution {
+  font-size: 0.9rem;
+}
+
+main .main-container .row-enter .card-main .main-bt-office{
+  position: absolute;
+  right: 0;
+  top: 70px;
+  display: inline-block;
+  width: calc(1000px - 699px);
+  margin: 0;
+}
+
+main .main-container .row-enter .card-main .main-bt-office a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
 
 
 
@@ -292,8 +338,6 @@ main .row-img .main-col-text a {
 
 
 
-
-
 main .main-container .row-card {
   width: 1000px;
   height: 1000px;
@@ -315,4 +359,60 @@ main .main-container .row-card .card h3 {
 main .main-container .row-card .card p {
   line-height: 22px;
 }
+
+
+main .main-container .last-main-texts {
+  width: 600px;
+  height: 200px;
+  margin-top: 110px;
+  margin-bottom: 150px;
+}
+
+main .main-container .last-main-texts h3{
+  font-size: 2.5rem;
+  margin-bottom: 70px;
+}
+
+main .main-container .last-main-texts a {
+  color: #0062FF;
+}
 /* FINE MAIN */
+
+
+/* INIZIO FOOTER */
+footer .footer-container {
+  width: 100%;
+  background-color: black;
+}
+
+footer .footer-container .row-foot {
+  width: 1200px;
+  max-height: 580px;
+  margin: 0 auto;
+}
+
+footer .footer-container .row-foot .col-foot {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+footer .footer-container .row-foot .col-foot ul h4{
+  padding-bottom: 40px;
+}
+
+footer .footer-container .row-foot .col-foot ul h4 a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+footer .footer-container .row-foot .col-foot ul li a{
+  list-style: none;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+/* FINE FOOTER */
