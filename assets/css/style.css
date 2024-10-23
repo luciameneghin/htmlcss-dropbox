@@ -169,7 +169,7 @@ main .main-container .radio-bt span input {
 main .main-container .row {
   max-width: 100%;
   justify-content: space-between;
-  height: 950px;
+  max-height: 950px;
 }
 
 main .main-container .row .card-main {
@@ -238,6 +238,56 @@ main .main-container .row .card-main .points ul li {
 main .main-container .row .card-main .points ul li a {
   color: #0762FE;
   padding-right: 10px;
+}
+
+
+
+main .main-container .row-enter{
+  margin-top: 50px;
+  width: 1000px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+main .row-img {
+  padding-top: 150px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 170px;
+}
+
+main .row-img img {
+  width: 60%;
+}
+
+main .row-img .main-col-text {
+  padding: 50px;
+}
+
+
+main .row-img .main-col-text h3 {
+  font-size: 1.2;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+main .row-img .main-col-text p {
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+main .row-img .main-col-text a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+
 }
 
 /* FINE MAIN */
