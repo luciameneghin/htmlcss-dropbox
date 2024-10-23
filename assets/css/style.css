@@ -27,14 +27,23 @@ img {
 
 .blue-button {
   background-color: #0062FF;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
 }
 
 /* INIZIO HEADER */
+header {
+  height: 960px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
 header .header-top {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: white;
+  z-index: 100;
 }
 
 nav {
@@ -103,12 +112,6 @@ header .jumbo-container .jumbo-col-text {
   position: relative;
 }
 
-header .jumbo-container .jumbo-col-text .jumbo-bt {
-  padding: 10px 20px;
-  text-decoration: none;
-  color: white;
-}
-
 header .jumbo-container .jumbo-col-text .jumbo-sx-elm{
   padding-bottom: 30px;
   font-size: 1.1rem;
@@ -134,3 +137,107 @@ header .jumbo-container .jumbo-col-img img {
   margin-bottom: 10px;
 }
 /* FINE HEADER */
+
+/* INIZIO MAIN */
+main {
+  max-width: 100%;
+}
+
+main .main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+main .main-container h2 {
+  font-size: 3rem;
+  margin-bottom: 70px;
+}
+
+main .main-container .radio-bt {
+  margin-bottom: 50px;
+}
+
+main .main-container .radio-bt span{
+  margin-right: 50px;
+}
+
+main .main-container .radio-bt span input {
+  margin-right: 5px;
+}
+
+main .main-container .row {
+  max-width: 100%;
+  justify-content: space-between;
+  height: 950px;
+}
+
+main .main-container .row .card-main {
+  width: 300px;
+  height: 950px; 
+  border: 1px solid rgba(0, 0, 0, .3);
+}
+
+main .main-container .row .card-main p{
+  height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  text-align: center;
+  padding-top: 10px
+}
+
+main .main-container .row .card-main .trial {
+  height: 920px;
+  padding: 40px 30px;
+}
+
+
+main .main-container .row .card-main .trial .pack h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px ;
+}
+
+main .main-container .row .card-main .trial .pack div {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px ;
+}
+
+
+main .main-container .row .card-main .service-list {
+  margin-top: 55px
+}
+
+main .main-container .row .card-main .service-list ul li {
+list-style: none; 
+margin-bottom: 25px;
+}
+
+main .main-container .row .card-main .trial .service-list ul li i {
+  color: black;
+  padding-right: 10px;
+}
+
+main .main-container .row .card-main .trial .button  {
+  margin-top: 60px;
+}
+
+main .main-container .row .card-main .trial .free {
+  padding: 40px 0 40px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+main .main-container .row .card-main .points h4 {
+  padding: 40px 0 ;
+}
+
+main .main-container .row .card-main .points ul li {
+  list-style: none;
+  padding-bottom: 25px
+}
+
+main .main-container .row .card-main .points ul li a {
+  color: #0762FE;
+  padding-right: 10px;
+}
+
+/* FINE MAIN */
