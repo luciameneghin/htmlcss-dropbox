@@ -287,7 +287,32 @@ main .row-img .main-col-text a {
   color: black;
   border: 1px solid black;
   padding: 10px 20px;
-
 }
 
+
+
+
+
+
+main .main-container .row-card {
+  width: 1000px;
+  height: 1000px;
+  justify-content: space-between;
+}
+
+
+main .main-container .row-card .card {
+  width: 300px;
+  height: 490px;
+}
+
+main .main-container .row-card .card h3 {
+  font-size: 1.3rem;
+  line-height: 25px;
+  margin: 20px 0 20px 0;
+}
+
+main .main-container .row-card .card p {
+  line-height: 22px;
+}
 /* FINE MAIN */
