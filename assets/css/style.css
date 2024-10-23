@@ -82,27 +82,55 @@ header .header-top .col-header ul li #inizia{
 
 header .jumbotron {
   max-width: 100%;
-  padding-top: 150px;
+  padding-top: 180px;
   background-color: #B5D0E6;
 }
 
 header .jumbo-container {
   max-width: 1200px;
-  height: 730px;
+  height: 655px;
   margin: 0 auto;
 }
 
 header .jumbo-container h1 {
-  font-size: 6rem;
+  font-size: 5.5rem;
   padding-bottom: 70px;
 }
 
 header .jumbo-container .jumbo-col-text {
-  max-width: 33%;
+  width: 33%;
+  height: 460px;
+  position: relative;
+}
+
+header .jumbo-container .jumbo-col-text .jumbo-bt {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+header .jumbo-container .jumbo-col-text .jumbo-sx-elm{
+  padding-bottom: 30px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+header .jumbo-container .jumbo-col-text a i {
+  position: absolute;
+  bottom: 120px;
+  color: black;
+  font-size: 50px;
 }
 
 header .jumbo-container .jumbo-col-img {
-  max-width: 67%;
+  width: 67%;
+  position: relative;
 }
 
+header .jumbo-container .jumbo-col-img img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+}
 /* FINE HEADER */
