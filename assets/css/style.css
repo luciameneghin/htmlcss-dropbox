@@ -32,6 +32,11 @@ img {
   color: white;
 }
 
+.blue-button:hover {
+  background-color: white;
+  color: black;
+}
+
 /* INIZIO HEADER */
 header {
   height: 960px;
@@ -89,8 +94,12 @@ header .header-top .col-header ul li #inizia{
   color: white;
 }
 
+header .header-top .col-header ul li #inizia:hover {
+  background-color: white;
+  color: black;
+}
+
 header .jumbotron {
-  max-width: 100%;
   padding-top: 180px;
   background-color: #B5D0E6;
 }
@@ -182,7 +191,11 @@ main .main-container .row .card-main p{
   height: 40px;
   border-bottom: 1px solid rgba(0, 0, 0, .3);
   text-align: center;
-  padding-top: 10px
+  padding-top: 10px;
+}
+
+main .main-container .row .card-main p i {
+  padding-right: 5px;
 }
 
 main .main-container .row .card-main .trial {
@@ -196,25 +209,36 @@ main .main-container .row .card-main .trial .pack h3 {
   margin-bottom: 20px ;
 }
 
-main .main-container .row .card-main .trial .pack div {
+main .main-container .row .card-main .trial .pack{
   text-align: left;
   font-weight: bold;
-  margin-bottom: 20px ;
 }
 
+main .main-container .row .card-main .trial .pack div:last-child {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 20px;
+}
 
 main .main-container .row .card-main .service-list {
-  margin-top: 55px
+  margin-top: 55px;
+  position: relative;
+}
+
+main .main-container .row .card-main .service-list ul li{
+  padding-left: 25px;
 }
 
 main .main-container .row .card-main .service-list ul li {
 list-style: none; 
-margin-bottom: 25px;
+margin-bottom: 5px;
 }
 
 main .main-container .row .card-main .trial .service-list ul li i {
   color: black;
   padding-right: 10px;
+  position: absolute;
+  left: 0;
 }
 
 main .main-container .row .card-main .trial .button  {
@@ -225,9 +249,17 @@ main .main-container .row .card-main .trial .free {
   padding: 40px 0 30px 0;
 }
 
+main .main-container .row .card-main .trial .free a:hover {
+  color: #0762FE;
+}
+
 main .main-container .row .card-main .trial .lineetta {
   color: white;
   border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+main .main-container .row .card-main .points {
+  position: relative;
 }
 
 main .main-container .row .card-main .points h4 {
@@ -236,12 +268,14 @@ main .main-container .row .card-main .points h4 {
 
 main .main-container .row .card-main .points ul li {
   list-style: none;
-  padding-bottom: 25px
+  padding: 10px 25px;
 }
 
-main .main-container .row .card-main .points ul li a {
+main .main-container .row .card-main .points ul li i {
   color: #0762FE;
   padding-right: 10px;
+  position: absolute;
+  left: 0;
 }
 
 
@@ -264,6 +298,7 @@ main .main-container .row-enter .card-main .team {
 
 main .main-container .row-enter .card-main .team i {
   color: black;
+  margin-right: 5px;
 }
 
 main .main-container .row-enter .card-main .main-col-enter {
@@ -280,7 +315,7 @@ main .main-container .row-enter .card-main .main-col-enter h3{
 
 main .main-container .row-enter .card-main .main-col-enter .office{
   font-weight: bold;
-  padding-bottom: 55px;
+  padding-bottom: 40px;
 }
 
 main .main-container .row-enter .card-main .main-col-enter .solution {
@@ -299,7 +334,12 @@ main .main-container .row-enter .card-main .main-bt-office{
 main .main-container .row-enter .card-main .main-bt-office a {
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 40px;
+}
+
+main .main-container .row-enter .card-main .main-bt-office a:hover {
+  background-color: white;
+  color: black;
 }
 
 
@@ -385,6 +425,10 @@ main .main-container .last-main-texts h3{
 main .main-container .last-main-texts a {
   color: #0062FF;
 }
+
+main .main-container .last-main-texts a:hover {
+  color: blueviolet;
+}
 /* FINE MAIN */
 
 
@@ -395,7 +439,7 @@ footer .footer-container {
 }
 
 footer .footer-container .row-foot {
-  width: 1200px;
+  max-width: 1200px;
   max-height: 650px;
   margin: 0 auto;
 }
@@ -408,7 +452,11 @@ footer .footer-container .row-foot .col-foot {
  
 }
 footer .footer-container .row-foot .col-foot ul h4{
-  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+footer .footer-container .row-foot .col-foot ul h4:hover{
+  border-bottom: 2px solid white;
 }
 
 footer .footer-container .row-foot .col-foot ul h4 a{
@@ -422,6 +470,10 @@ footer .footer-container .row-foot .col-foot ul li a{
   line-height: 40px;
   text-decoration: none;
   color: white;
+}
+
+footer .footer-container .row-foot .col-foot ul li a:hover{
+  border-bottom: 1px solid white;
 }
 
 footer .footer-container .row-foot .lineetta {
