@@ -72,7 +72,7 @@ header .header-top .col-header {
 
 header .header-top .col-header ul{
   width: calc(100%/3 - 1);
-  margin: 3px;
+  margin: 3px 15px;
 }
 
 header .header-top .col-header ul li {
@@ -184,7 +184,7 @@ main .main-container .row {
 main .main-container .row .card-main {
   border: 1px solid rgba(0, 0, 0, .3);
   width: calc(100%/3);
-  margin: 0 30px 0 0;
+  margin-right: 30px;
 }
 
 main .main-container .row .card-main:last-child{
@@ -378,23 +378,21 @@ main .row-img .main-col-text a:hover {
 }
 
 main .main-container .row-card {
-  width: 1000px;
-  height: 1000px;
-  justify-content: space-between;
+  max-width: 100%;
 }
 
-main .main-container .row-card .card {
-  width: 300px;
-  height: 490px;
+main .main-container .row-card .card-ope {
+  width: calc(100%/3);
+  padding: 25px;
 }
 
-main .main-container .row-card .card h3 {
+main .main-container .row-card .card-ope h3 {
   font-size: 1.3rem;
   line-height: 25px;
   margin: 20px 0 20px 0;
 }
 
-main .main-container .row-card .card p {
+main .main-container .row-card .card-ope p {
   line-height: 22px;
 }
 
